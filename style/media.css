@@ -1,0 +1,79 @@
+@media screen and (max-width: 1080px) {
+  .collection__wrap {
+    flex-direction: column;
+  }
+  .collection__cards-item {
+    max-width: 22%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .collection__cards-item-h {
+    font-size: 18px;
+  }
+  .collection__cards-item-p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .menu__link {
+    padding: 19px 10px;
+  }
+  .footer__wrap {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .footer__list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 0;
+    max-width: 56%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .collection__cards-item {
+    padding: 19px 5px;
+  }
+
+  .collection__cards-item {
+    max-width: 33%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .nav__menu {
+    flex-direction: column;
+  }
+  .menu__link {
+    padding: 8px 10px;
+  }
+
+  .collection__cards-item {
+    max-width: 47%;
+  }
+  .footer__list {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .collection__big-card-img {
+    width: 85%;
+  }
+
+  .collection__big-card_desc-h {
+    font-size: 18px;
+  }
+
+  .collection__big-card_desc-p {
+    font-size: 14px;
+  }
+
+  .footer__list {
+    display: none;
+  }
+}
